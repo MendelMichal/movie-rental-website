@@ -1,0 +1,390 @@
+body {
+    font-family: 'Raleway', sans-serif;
+     font-size: 20px;
+        
+}
+
+header {
+  padding: 154px 0 60px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 85px 0 100px;
+  }
+}
+
+section {
+  padding: 70px 0;
+}
+
+.logo{
+    width: 60px;
+    height: 59px;
+}
+
+.user{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.menu-color{
+    background-color: #ffa500;
+}
+
+/*elementy w menu - filmy*/
+
+/* Dropdown Content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #ffa500;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown-content a:hover{color: #000}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.carousel-item {
+  height: 90vh; /*było 75 */
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax2 { 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-h {
+    font-size: 60px;
+ 
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 200px;
+ }
+
+.slider-text{
+    padding-bottom: 50px;
+}
+
+.slider-text2{
+  font-size: 50px;
+}
+
+.slider-text3{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.button {
+    padding: 20px 0 20px;
+    width: 300px;
+    height: 65px;
+    background: #ffa500;    
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    
+}
+.button:hover {
+    background: #fff;
+   
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.about-h {
+    font-size: 80px;
+    color: #ffa500;
+    padding-bottom: 20px;
+ }
+
+.services{
+    background-color: #ffa500;
+}
+
+.services-h{
+    font-size: 70px;
+    color: #fff;
+    padding-bottom: 17px
+}
+
+.services-padding{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.tytul-kolor{
+    color: #ffa500;
+}
+
+.tekst-rozm{
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+/*newsletter*/
+.parallax3 { 
+    /* The image used */
+    background-image: url('../img/newsletter.jpg');
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news-tekst{
+  font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.news-padd{
+    padding-bottom: 20px;
+}
+
+.news-but{
+    /*background: #ffa500;
+  background: -webkit-linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);
+  background: -o-linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);
+  background: -moz-linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);
+  background: linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);*/
+    
+    width: 300px;
+    height: 65px;
+    background: #ffa500;    
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+}
+
+.news-but:hover {
+    background: #f87b02;
+   
+}
+
+.news-mail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    width: 300px;
+}
+
+.kontakt-but{
+    /*background: #ffa500;
+  background: -webkit-linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);
+  background: -o-linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);
+  background: -moz-linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);
+  background: linear-gradient(-135deg, #fff68f, #ffa500, #fff68f, #ffa500);*/
+    padding: 20px 0 20px;
+    width: 300px;
+    height: 65px;
+    background: #ffa500;    
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+}
+
+.kontakt-but:hover {
+    background: #f87b02;
+   
+}
+
+
+
+/* filmy */
+
+.parallax { 
+    /* The image used */
+    background-image: url('../img/movies.jpg');
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.movies-h {
+    font-size: 60px;
+    font-weight: bold;
+    color: #310c0c; /*#fff*/
+    padding-bottom: 20px;
+    padding-top: 200px;
+ }
+
+
+.movies-padding{
+     padding-top: 50px;
+}
+
+/* szczegółowy opis */
+
+.parallax_det { 
+    /* The image used */
+    background-image: url('../img/cinema2.jpg');
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.det-h {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff; /*#310c0c*/
+    padding-bottom: 20px;
+    padding-top: 200px;
+ }
+
+.det-padding{
+    padding-top: 30px;
+}
+
+.det-menu{
+    background-color: #f87b02;
+    border-bottom-color: #ffa500;
+}
+
+.det-menu-a{
+    color: #fff;
+}
+
+
+.det-menu-a2{
+    color: #f87b02;
+}
+
+.det-h4{
+    font-weight: bold;
+}
+
+
+
+.parallax_profile { 
+    /* The image used */
+    background-image: url('../img/cinema5.jpg');
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+
+.profile-img2{
+    height: 128px;
+    width: 128px;
+    margin-left: 350px;
+    margin-bottom: 25px;
+}
+
+.profile-header{
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: #fef65b;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+
+.profile-button {
+    padding: 20px 0 20px;
+    width: 300px;
+    height: 65px;
+    background: #ffa500;    
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    
+}
+.profile-button:hover {
+    background: #f87b02;
+   
+}
+
